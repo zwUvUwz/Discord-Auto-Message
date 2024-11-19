@@ -1,5 +1,7 @@
 # Discord Auto Messenger
 
+Thêm giải mã encoding="utf8" cho ae dùng tiếng Việt - Bởi FDxMinh
+
 This Python script enables automated messaging in a Discord channel, enhancing the experience by sending messages from a chat dataset to mimic human-like behavior.
 
 ## Installation
