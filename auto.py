@@ -125,7 +125,7 @@ def main():
 
     while True:
         try:
-            with open(MESSAGES_FILE, "r") as file:
+            with open(MESSAGES_FILE, "r" ,encoding="utf8") as file:
                 messages = file.read().splitlines()
         except FileNotFoundError:
             print(f"{get_timestamp()} Messages file not found.")
